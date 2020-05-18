@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestDemp1" duration-ms="25870" started-at="2020-05-18T03:17:28Z" finished-at="2020-05-18T03:17:54Z">
+    <groups>
+    </groups>
+    <test name="Test Demo" duration-ms="25870" started-at="2020-05-18T03:17:28Z" finished-at="2020-05-18T03:17:54Z">
+      <class name="com.testDemo.testCases.TC_LoginDDT_002">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.testDemo.testCases.TC_LoginDDT_002@4501b7af]" name="setup" is-config="true" duration-ms="13526" started-at="2020-05-18T08:47:29Z" finished-at="2020-05-18T08:47:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.testDemo.testCases.TC_LoginDDT_002@4501b7af]" name="loginDDT" duration-ms="4811" started-at="2020-05-18T08:47:48Z" data-provider="LoginData" finished-at="2020-05-18T08:47:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testDemo.testCases.TC_LoginDDT_002@4501b7af]" name="tearDown" is-config="true" duration-ms="880" started-at="2020-05-18T08:47:53Z" finished-at="2020-05-18T08:47:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testDemo.testCases.TC_LoginDDT_002 -->
+    </test> <!-- Test Demo -->
+  </suite> <!-- TestDemp1 -->
+</testng-results>
